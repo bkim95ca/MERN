@@ -75,3 +75,13 @@ const sum2 = (a,b) => a+b;
 smallHello("john");
 console.log(sum(5,7));
 console.log(sum2(6,8));
+
+//--Ternary Operator -- 
+const g = 1;
+if (g>1) {
+    console.log("yes");
+} else {
+    console.log("no");
+}
+
+g > 1 ? console.log("yes") :  console.log("no");
